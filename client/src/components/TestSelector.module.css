@@ -1,0 +1,59 @@
+.testSelector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #1c1c1c; /* Dark background color */
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e6e6e6; /* Light gray for the heading */
+}
+
+.advice {
+  background-color: #2c2c2c; /* Slightly lighter background for the advice section */
+  border: 1px solid #444; /* Darker border for contrast */
+  border-radius: 8px; /* Rounded corners */
+  padding: 15px; /* Padding inside the advice section */
+  max-width: 600px; /* Maximum width for better readability */
+  margin-bottom: 20px; /* Space below the advice section */
+}
+
+.advice h3 {
+  color: #e6e6e6; /* Light gray text for advice */
+  font-size: 1rem; /* Smaller font size for advice items */
+  margin-bottom: 10px; /* Space between advice items */
+}
+
+button {
+  background-color: #3b3b3b; /* Darker gray button background */
+  color: #ffffff; /* White text color */
+  border: 2px solid #555555; /* Border with a slightly lighter gray */
+  border-radius: 8px; /* Slightly more rounded corners */
+  padding: 12px 24px; /* Larger padding for more substantial buttons */
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #555555; /* Lighter gray on hover */
+  transform: scale(1.05); /* Slightly larger on hover */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2); /* Soft glow on focus */
+}
+
+@media (max-width: 600px) {
+  button {
+    width: 100%;
+    max-width: 300px;
+  }
+}

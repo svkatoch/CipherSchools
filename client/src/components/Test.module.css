@@ -1,0 +1,133 @@
+.testContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  color: #e6e6e6; /* Light text color for dark theme */
+  background-color: #1c1c1c; /* Dark background color */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333; /* Darker background for header */
+  border-bottom: 1px solid #444; /* Slightly lighter border */
+}
+
+.mainContent {
+  display: flex;
+  margin-top: 20px;
+}
+
+.questionSection {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.questionSection h3 {
+  margin-bottom: 10px;
+  color: #e6e6e6; /* Light gray text for questions */
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.option {
+  margin-bottom: 10px;
+  background-color: #333; /* Darker background for options */
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners */
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submitTest {
+  background-color: #28a745; /* Green button background */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.submitTest:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.sidebar {
+  flex: 1;
+  border-left: 1px solid #444; /* Lighter border for the sidebar */
+  padding-left: 20px;
+}
+
+.questionNav h4 {
+  margin-bottom: 10px;
+  color: #e6e6e6; /* Light gray text for question navigation */
+}
+
+.questionGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.questionNumber {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333; /* Darker background for question numbers */
+  color: #e6e6e6; /* Light gray text */
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.current {
+  background-color: #007bff; /* Blue for current question */
+  color: white;
+}
+
+.answered {
+  background-color: #28a745; /* Green for answered questions */
+  color: white;
+}
+
+.notAnswered {
+  background-color: #ffc107; /* Orange for not answered questions */
+  color: white;
+}
+
+.review {
+  background-color: #dc3545; /* Red for questions to review */
+  color: white;
+}
+
+.cameraFeed {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 150px;
+  height: 100px;
+  background-color: #000; /* Black background for camera feed */
+  border: 2px solid #fff; /* White border */
+  overflow: hidden;
+  border-radius: 8px; /* Rounded corners */
+}
+
+.cameraVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

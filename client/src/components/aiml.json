@@ -1,0 +1,17 @@
+[
+  { "question": "What is the primary purpose of supervised learning in machine learning?", "options": ["Clustering", "Classification", "Dimensionality Reduction"], "correctAnswer": "Classification" },
+  { "question": "Which algorithm is commonly used for classification tasks in machine learning?", "options": ["K-means", "Decision Trees", "Linear Regression"], "correctAnswer": "Decision Trees" },
+  { "question": "What is the technique used to prevent overfitting in machine learning models?", "options": ["Cross-validation", "Data Augmentation", "Gradient Descent"], "correctAnswer": "Cross-validation" },
+  { "question": "Which evaluation metric is used for binary classification problems?", "options": ["F1 Score", "Mean Squared Error", "Silhouette Score"], "correctAnswer": "F1 Score" },
+  { "question": "What is the primary function of an activation function in a neural network?", "options": ["Normalization", "Non-linearity", "Regularization"], "correctAnswer": "Non-linearity" },
+  { "question": "Which algorithm is used for clustering data points into groups?", "options": ["K-means", "Naive Bayes", "Support Vector Machines"], "correctAnswer": "K-means" },
+  { "question": "What is the main difference between supervised and unsupervised learning?", "options": ["Supervised learning uses labeled data, unsupervised learning does not", "Supervised learning uses clustering, unsupervised learning uses classification", "Supervised learning is faster"], "correctAnswer": "Supervised learning uses labeled data, unsupervised learning does not" },
+  { "question": "What does the term 'overfitting' refer to in machine learning?", "options": ["Model performs well on training data but poorly on unseen data", "Model performs well on both training and unseen data", "Model performs poorly on both training and unseen data"], "correctAnswer": "Model performs well on training data but poorly on unseen data" },
+  { "question": "Which technique is used for feature selection in machine learning?", "options": ["Principal Component Analysis", "Gradient Descent", "Support Vector Machines"], "correctAnswer": "Principal Component Analysis" },
+  { "question": "What is the purpose of the learning rate in gradient descent optimization?", "options": ["To control the speed of convergence", "To adjust the model complexity", "To increase the number of iterations"], "correctAnswer": "To control the speed of convergence" },
+  { "question": "Which metric is used to measure the performance of a regression model?", "options": ["Mean Absolute Error", "Confusion Matrix", "Precision"], "correctAnswer": "Mean Absolute Error" },
+  { "question": "What is the primary goal of reinforcement learning?", "options": ["To maximize cumulative reward", "To classify data into categories", "To reduce dimensionality"], "correctAnswer": "To maximize cumulative reward" },
+  { "question": "Which algorithm is commonly used for dimensionality reduction?", "options": ["Principal Component Analysis", "K-means", "Decision Trees"], "correctAnswer": "Principal Component Analysis" },
+  { "question": "What is the role of backpropagation in training neural networks?", "options": ["To update the weights based on error", "To initialize the weights", "To normalize the data"], "correctAnswer": "To update the weights based on error" },
+  { "question": "Which concept is used to assess the generalization ability of a machine learning model?", "options": ["Cross-validation", "Gradient Descent", "Feature Engineering"], "correctAnswer": "Cross-validation" }
+]

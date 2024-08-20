@@ -1,0 +1,17 @@
+[
+  { "question": "What is the time complexity of binary search?", "options": ["O(n)", "O(log n)", "O(n log n)"], "correctAnswer": "O(log n)" },
+  { "question": "Which data structure is used to implement a LIFO order?", "options": ["Queue", "Stack", "Linked List"], "correctAnswer": "Stack" },
+  { "question": "What is the best-case time complexity of quicksort?", "options": ["O(n^2)", "O(n log n)", "O(log n)"], "correctAnswer": "O(n log n)" },
+  { "question": "Which of the following is a self-balancing binary search tree?", "options": ["Binary Tree", "AVL Tree", "Heap"], "correctAnswer": "AVL Tree" },
+  { "question": "Which sorting algorithm is the most efficient in the worst case?", "options": ["Bubble Sort", "Quick Sort", "Merge Sort"], "correctAnswer": "Merge Sort" },
+  { "question": "What is the primary use of a hash table?", "options": ["Sorting", "Searching", "Mapping keys to values"], "correctAnswer": "Mapping keys to values" },
+  { "question": "Which data structure is used to perform BFS in a graph?", "options": ["Stack", "Queue", "Tree"], "correctAnswer": "Queue" },
+  { "question": "What is the worst-case time complexity of inserting an element in a heap?", "options": ["O(1)", "O(log n)", "O(n)"], "correctAnswer": "O(log n)" },
+  { "question": "Which of the following algorithms is used for finding the shortest path in a graph?", "options": ["Prim's", "Kruskal's", "Dijkstra's"], "correctAnswer": "Dijkstra's" },
+  { "question": "Which traversal algorithm visits each node of a binary tree exactly once in a depth-first manner?", "options": ["Inorder", "Preorder", "Postorder"], "correctAnswer": "Inorder" },
+  { "question": "Which data structure is used to implement recursion?", "options": ["Array", "Stack", "Queue"], "correctAnswer": "Stack" },
+  { "question": "What is the height of a binary tree with 'n' nodes in the worst case?", "options": ["O(log n)", "O(n)", "O(n log n)"], "correctAnswer": "O(n)" },
+  { "question": "Which algorithm is used to sort elements by comparing and swapping adjacent elements?", "options": ["Merge Sort", "Bubble Sort", "Heap Sort"], "correctAnswer": "Bubble Sort" },
+  { "question": "What is the space complexity of merge sort?", "options": ["O(n)", "O(log n)", "O(n log n)"], "correctAnswer": "O(n)" },
+  { "question": "Which data structure is used for implementing a priority queue?", "options": ["Array", "Heap", "Linked List"], "correctAnswer": "Heap" }
+]

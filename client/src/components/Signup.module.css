@@ -1,0 +1,90 @@
+/* Container for centering content vertically and horizontally */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #1c1c28; /* Light blue-gray background for a calm appearance */
+}
+.heading{
+  color: white;
+}
+
+/* Form styling with rounded corners and a subtle shadow */
+.form {
+  background-color: #2e2e44; /* Dark grayish-blue form background */
+  padding: 2rem;
+  border-radius: 12px; /* Softer border radius */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Enhanced shadow for depth */
+  width: 100%;
+  max-width: 420px; /* Slightly wider for more space */
+  transition: box-shadow 0.3s ease;
+}
+
+/* Input fields with updated colors */
+.inputField {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.25rem; /* Increased margin for better spacing */
+  border: 1px solid #4b4b63;
+  border-radius: 6px; /* Softer border radius */
+  background-color: #3c3c54; /* Darker gray input background */
+  color: #ffffff; /* White text for contrast */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.inputField:focus {
+  border-color: #ff8c00; /* Bright orange border on focus */
+  box-shadow: 0 0 5px rgba(255, 140, 0, 0.5); /* Subtle focus effect */
+  outline: none; /* Removes default focus outline */
+}
+
+/* Button styling with vibrant colors */
+.button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ff4500; /* Vibrant orange button for positive action */
+  color: #fff;
+  border: none;
+  border-radius: 6px; /* Softer border radius */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.button:hover {
+  background-color: #e63e00; /* Darker orange on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Error message with more visible styling */
+.error {
+  color: #ff4d4d; /* Bright red for visibility */
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center; /* Center-align the error message */
+}
+
+/* Link section with more engaging styling */
+.link {
+  margin-top: 1.5rem;
+  text-align: center;
+  color: #cccccc; /* Light gray for the surrounding text */
+  font-size: 0.875rem;
+}
+
+/* Link button with enhanced styling */
+.linkButton {
+  background: none;
+  border: none;
+  color: #ff8c00; /* Bright orange for link button */
+  cursor: pointer;
+  font-size: 0.875rem;
+  text-decoration: underline;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.linkButton:hover {
+  color: #e67300; /* Darker orange on hover */
+}
